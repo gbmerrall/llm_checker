@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LLMs.txt Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 250px;
+            padding: 10px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h2 {
+            color: #0056b3;
+            margin-top: 0;
+            font-size: 1.1em;
+        }
+        #message {
+            margin-top: 10px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            font-size: 0.9em;
+        }
+        .found {
+            background-color: #d4edda;
+            color: #155724;
+            border-color: #c3e6cb;
+        }
+        .not-found {
+             background-color: #ffeeba;
+             color: #856404;
+             border-color: #ffc107;
+        }
+        .default {
+             background-color: #e2e3e5;
+             color: #383d41;
+             border-color: #d6d8db;
+        }
+    </style>
+</head>
+<body>
+    <h2>LLMs.txt Status</h2>
+    <div id="message" class="default">Waiting for status...</div>
+    <script src="popup.js"></script>
+</body>
+</html>
